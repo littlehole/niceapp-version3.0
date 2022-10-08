@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/me/me",
+    "pages/star/star",
+    "pages/post/post",
+    "pages/detail/detail",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/result/result",
+    "pages/change_UserInfo/change_UserInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "nice app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "text": "",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home_cur.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/star/star",
+        "iconPath": "static/icon/star.png",
+        "selectedIconPath": "static/icon/star_cur.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/post/post",
+        "iconPath": "static/icon/post.png",
+        "selectedIconPath": "static/icon/post_cur.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/icon/messages.png",
+        "selectedIconPath": "static/icon/messages_cur.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/me/me",
+        "iconPath": "static/icon/account.png",
+        "selectedIconPath": "static/icon/account_cur.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
